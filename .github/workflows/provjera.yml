@@ -18,3 +18,9 @@
            run: ruff format --check .
          - name: Pytest (testovi)
            run: pytest -v
+         - name: Mini projekat 1
+           working-directory: mini_projekat_1
+           run: |
+             pip install -r requirements.txt
+             pytest -v
+             mypy .
