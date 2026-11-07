@@ -8,7 +8,7 @@ Instalirala sam Python 3.12 i VS Code. Za provjeru koda koristim ruff, a za test
 
 Funkcija prosjecna_cijena je u src/cijene.py, testovi su u tests/test_cijene.py.
 
-Testovi se pokreću sa `pytest`, a ruff sa `ruff check .`
+Prvo `pip install -r requirements-dev.txt`, pa se testovi pokreću sa `pytest`, a ruff sa `ruff check .`
 
 **Upit:** Napiši Python funkciju prosjecna_cijena koja vraća prosječnu cijenu iz liste. Dodaj test.
 

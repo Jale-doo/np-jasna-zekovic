@@ -9,6 +9,7 @@ dev = ["ruff", "pytest"]
 [tool.ruff]
 line-length = 100
 target-version = "py312"
+extend-exclude = ["mini_projekat_1/original"]
 
 
 [tool.ruff.lint]
