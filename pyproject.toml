@@ -1,0 +1,21 @@
+[project]
+name = "np-jasna-zekovic"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+[project.optional-dependencies]
+dev = ["ruff", "pytest"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+
+[tool.ruff.lint]
+# E/F = osnovne greške, I = redoslijed importa, B = česti bagovi, UP = moderna sintaksa
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["src", "tests"]
+pythonpath = ["."]
+addopts = "--doctest-modules"
