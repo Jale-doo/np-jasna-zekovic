@@ -15,3 +15,11 @@ Prvo `pip install -r requirements-dev.txt`, pa se testovi pokreću sa `pytest`, 
 **Nedostaci:** AI je napisao samo sum(cijene) / len(cijene). To pukne kad je lista prazna.
 Takođe je prihvatao negativne cijene, a True je računao kao 1. Test koji je dao provjeravao je samo
 jedan običan primjer. Dodala sam provjere za to i još testova.
+
+## Mini projekat 1
+
+U folderu mini_projekat_1, opis je u njegovom README-u.
+
+## Mini projekat 2
+
+U folderu mini_projekat_2, opis i dijagram klasa su u njegovom README-u.
